@@ -75,7 +75,7 @@ function main() {
 		}
 	}
 
-	let container = document.getElementsByClassName("container")[0];	//get continer, deck and cards
+	let container = document.getElementsByClassName("container")[0];   //get continer, deck and cards
 	let deck = document.getElementsByClassName("deck")[0];
 	let cards = [...deck.children];
 	let resetButtons = document.getElementsByClassName("restart");
@@ -85,8 +85,8 @@ function main() {
 
 //resets the stats and adds event listener to the new deck
 function init(cards, deck, container, performance) {
-	let matchedListItems = [];		//matched pairs stored here
-	let openListItem = [];				//card, looking to be paired with immediate upcoming card
+	let matchedListItems = [];	  //matched pairs stored here
+	let openListItem = [];			  //card, looking to be paired with immediate upcoming card
 	let bombList = [];						/*list of items that are soon to be hidden after mismatch,
 									 							events are blocked on them*/
 	deck = prepareNewDeck(cards, deck, container);//prepare new deck
