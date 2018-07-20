@@ -1,6 +1,6 @@
 # Memory Game
 A simple game memory game made with HTML, CSS and javaScript.
- (link -  <https://suhas023.github.io/movie-search/>)
+ (link -  <https://suhas023.github.io/Memory-Game/>)
 
 # How to Play
 - The game starts automatically upon page load. 
